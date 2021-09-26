@@ -52,6 +52,7 @@ We learned about renting GPUs to reduce our training time and collaboration.
 Improving the accuracy of the model.
 
 ## Installing and Running
+Go to the backend folder and run
 ```
 pip install -r requirements.txt
 python manage.py runserver
