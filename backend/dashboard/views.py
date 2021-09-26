@@ -46,6 +46,14 @@ treatment = {
     "Tomato": {
         "Late_Blight": "If only a few leaves are infected, you can remove them and dispose of them under the soil otherwise try copper spray",
         "Healthy": "Your Tomato Plant is Healthy. Just make sure to water your plant daily and it should remain healthy.",
+        "Bacterial_Spot": "A plant with bacterial spot cannot be cured. Remove symptomatic plants from the field or greenhouse to prevent the spread of bacteria to healthy plants.",
+        "Early_Blight": "Use pathogen-free seed, or collect seed only from disease-free plants. Rotate out of tomatoes and related crops for at least two years. ",
+        "Leaf_Mold": "Applying fungicides when symptoms first appear can reduce the spread of the leaf mold fungus significantly. Several fungicides are labeled for leaf mold control on tomatoes and can provide good disease control if applied to all the foliage of the plant, especially the lower surfaces of the leaves.",
+        "Mosaic_Virus": "Fungicides will NOT treat this viral disease. Plant resistant varieties when available or purchase transplants from a reputable source.",
+        "Septoria_Leaf_Spot": "Remove diseased leaves. Improve air circulation around the plants.",
+        "Spider_Mites": "Extension horticulturists currently recommend aiming a hard stream of water at infested plants to knock spider mites off the plants.",
+        "Target_Spot": "Remove old plant debris at the end of the growing season; otherwise, the spores will travel from debris to newly planted tomatoes in the following growing season, thus beginning the disease anew.",
+        "YellowLeaf__Curl_Virus": "Other methods to control the spread of TYLCV include planting resistant/tolerant lines, crop rotation, and breeding for resistance of TYLCV."
     }
 }
 
