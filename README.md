@@ -2,13 +2,18 @@
 
 ## 💡 Inspiration
 
-Plants are an essential part of our backyards but they wither frequently because they are afflicted and the disease is not recognised at an early stage. The mission of our projects is to identify plant diseases early and suggest appropriate methods for their treatment.
+Plants are an essential part of our backyards but they wither frequently because they are afflicted and the disease is not recognised at an early stage. Moreover, the disease can spread from one plant to the other adversely affecting our environment and biodiversity. The mission of our projects is to identify plant diseases early and suggest appropriate methods for their treatment.
 
 ## 💻 What it does
 
 Plantes de Jardin can be used by anyone to detect if their plant is healthy or sick, as well as provide treatment options all with just a click of a picture.<br>
-It can also be used to examine the current weather conditions and the weather forecast.<br>
-And also while using Plantes de Jardin, one can look up a variety of information about different sorts of plants.
+Currently following Plants are supported -
+- Corn
+- Pepper Bell
+- Potato
+- Tomato
+
+It can also be used to check out current weather conditions and forecasts and can also be used to find up a range of information about different types of plants.
 
 ## ⚙️How we built it
 - ML: Python, TensorFlow
@@ -45,3 +50,9 @@ We learned about renting GPUs to reduce our training time and collaboration.
 ## 🚀 What's next for Plantes de Jardin
 
 Improving the accuracy of the model.
+
+## Installing and Running
+```
+pip install -r requirements.txt
+python manage.py runserver
+```
