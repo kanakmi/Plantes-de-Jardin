@@ -15,7 +15,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 @login_required
 def dashboard(request):
     usr = request.user
-    data = classify.objects.filter(user=usr)
+    data = classify.objects.filter(user=usr).order_by('-id')
     context = {
         'data': data
     }
@@ -80,4 +80,4 @@ def plants(request):
     context = {
         'data': get_data()
     }
-    return render(request, 'tables.html',context=context)
+    return render(request, 'tables.html', context=context)
