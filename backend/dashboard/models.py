@@ -8,5 +8,5 @@ class classify(models.Model):
     plant_name = models.CharField(max_length=50)
     disease = models.CharField(max_length=50)
     accuracy = models.CharField(max_length=5)
-    img = models.CharField(max_length=50)
+    img = models.CharField(max_length=100)
     treatment = models.TextField()
